@@ -12,5 +12,5 @@
 ## eksctl
 - [Install eksctl](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)
 
-## kubctl
+## kubectl
 - [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
