@@ -22,7 +22,7 @@ But what if I don't need these resources anymore, how do I scale..down?
 - [Diagram](https://www.cncf.io/wp-content/uploads/2020/09/Kubernetes-architecture-diagram-1-1.png) 
 - The **Cluster** and everything within it (Nodes, Pods) constitute the **Data Plane**.
 - On the other hand, the **Control Plane** manages the **Nodes** and the **Pods** in the **Cluster**.
-- The **Control Plane** exposes the APIs that allow you to define, deploy and manage the entire lifecycle of **Containers** in your **Cluster**.
+- The **Control Plane** exposes the APIs that allow you to define, deploy and manage the entire lifecycle of **Containers** in your **Cluster**. (using a Web Console or a CLI)
 
 ## Why do we use Kubernetes?
 ### Scaling
