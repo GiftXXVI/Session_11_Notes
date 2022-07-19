@@ -15,11 +15,12 @@ But what if I don't need these resources anymore, how do I scale..down?
 ## Kubernetes Components
 - When you deploy Kubernetes, you create a **Cluster**.
 - A Kubernetes **Cluster** consists of a set of worker machines, called **Nodes**.
-- Every **Node** hosts some **Pods**.
+- Every **Node** hosts some **Pods** and has a **Container** runtime, usually **Docker**. 
 - A **Pod** is a set of running **Containers**.
 - The **Control Plane** manages the **Nodes** and the **Pods** in the **Cluster**.
 - The **Control Plane** exposes the APIs that allow you to define, deploy and manage the entire lifecycle of **Containers** in your **Cluster**.
 - An agent called a **kubelet** runs on each **Node** in the **Cluster**. It makes sure that **Containers** in a **Pod** are running and healthy.
+- [Diagram](https://www.cncf.io/wp-content/uploads/2020/09/Kubernetes-architecture-diagram-1-1.png) 
 
 ## Why do we use Kubernetes?
 ### Scaling
@@ -36,9 +37,6 @@ By utilizing the cloud we can allocate, utilize, and scale up or down to suit ou
 - Add your newly created user data
 - Create an EKS Cluster
 - Follow the steps from Lesson 3: Deployment Concept 15
-
-
-
 
 ## AWS CLI
 - [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
