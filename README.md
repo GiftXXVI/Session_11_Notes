@@ -1,4 +1,27 @@
 # Kubernetes
+## Bypassing a Bottleneck
+As we go deeper into the world of containerization an issue arises. What happens when you run out of resources for your containers? A need to scale your resources presents itself. And for that, we have two types
+- Vertical: In this approach, we upgrade the resources on the host machine (RAM, CPU, etc.)
+- Horizontal: In this approach, we buy a new machine and run the same instance parallel to it.
+But what if I don't need these resources anymore, how do I scale..down?
+## What is Kubernetes?
+Kubernetes is an open-source container orchestration platform that automates deploying, managing and scaling containerized applications.
+## Why do we use Kubernetes?
+### Scaling
+It automatically scales up or down the resources (number of containers) or application usage requirements based on the incoming traffic.
+### Updating
+It allows us to update all of our containers automatically without having to go through them one by one.
+### Elasticity
+By utilizing the cloud we can allocate, utilize, and scale up or down to suit our demands and traffic with great flexibility.
+ 
+## Practical Kubernetes
+- Create an IAM user
+- Setup AWS CLI
+- Use: aws configure
+- Add your newly created user data
+- Create an EKS Cluster
+- Follow the steps from Lesson 3: Deployment Concept 15
+
 
 
 
