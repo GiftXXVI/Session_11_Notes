@@ -1,11 +1,23 @@
 # Kubernetes
+
 ## Bypassing a Bottleneck
 As we go deeper into the world of containerization an issue arises. What happens when you run out of resources for your containers? A need to scale your resources presents itself. And for that, we have two types
 - Vertical: In this approach, we upgrade the resources on the host machine (RAM, CPU, etc.)
 - Horizontal: In this approach, we buy a new machine and run the same instance parallel to it.
 But what if I don't need these resources anymore, how do I scale..down?
+
+
 ## What is Kubernetes?
-Kubernetes is an open-source container orchestration platform that automates deploying, managing and scaling containerized applications.
+- Kubernetes (K8s) is an open-source container orchestration platform that automates deploying, managing and scaling containerized applications.
+- K8s as an abbreviation results from counting the eight letters between the "K" and the "s".
+- Google open-sourced the Kubernetes project in 2014 after using it internally for 15 years.
+
+## Kubernetes Components
+- When you deploy Kubernetes, you create a **Cluster**.
+- A Kubernetes **Cluster** consists of a set of worker machines, called **Nodes**.
+- Every **Node** host some **Pods**.
+- A **Pod** is a set of running **Containers**.
+
 ## Why do we use Kubernetes?
 ### Scaling
 It automatically scales up or down the resources (number of containers) or application usage requirements based on the incoming traffic.
@@ -37,3 +49,8 @@ By utilizing the cloud we can allocate, utilize, and scale up or down to suit ou
 
 ## kubectl
 - [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+
+Resources
+- [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+- [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+
