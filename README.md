@@ -20,7 +20,7 @@ But what if I don't need these resources anymore, how do I scale..down?
 - The **Control Plane** manages the **Nodes** and the **Pods** in the **Cluster**.
 - The **Control Plane** exposes the APIs that allow you to define, deploy and manage the entire lifecycle of **Containers** in your **Cluster**.
 - An agent called a **kubelet** runs on each **Node** in the **Cluster**. It makes sure that **Containers** in a **Pod** are running and healthy.
-- A network proxy called **kube-proxy** maintains network rules on **nodes**. These network rules allow network communication to your **Pods** from network sessions inside or outside of your **Cluster**.
+- A network proxy called **kube-proxy** maintains network rules on **Nodes**. These network rules allow network communication to your **Pods** from network sessions inside or outside of your **Cluster**.
 - [Diagram](https://www.cncf.io/wp-content/uploads/2020/09/Kubernetes-architecture-diagram-1-1.png) 
 
 ## Why do we use Kubernetes?
