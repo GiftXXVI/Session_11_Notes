@@ -10,7 +10,7 @@
 - [Configure AWS CLI Environment Variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 
 ## eksctl
-- [Install eksctl] (https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)
+- [Install eksctl](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)
 
 ## kubctl
-- [Install kubectl] (https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+- [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
