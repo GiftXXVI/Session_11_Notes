@@ -15,7 +15,7 @@ But what if I don't need these resources anymore, how do I scale..down?
 ## Kubernetes Components
 - When you deploy Kubernetes, you create a **Cluster**.
 - A Kubernetes **Cluster** consists of a set of worker machines, called **Nodes**.
-- Every **Node** host some **Pods**.
+- Every **Node** hosts some **Pods**.
 - A **Pod** is a set of running **Containers**.
 
 ## Why do we use Kubernetes?
