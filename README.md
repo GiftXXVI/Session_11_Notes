@@ -17,6 +17,8 @@ But what if I don't need these resources anymore, how do I scale..down?
 - A Kubernetes **Cluster** consists of a set of worker machines, called **Nodes**.
 - Every **Node** hosts some **Pods**.
 - A **Pod** is a set of running **Containers**.
+- The **Control Plane** manages the **Nodes** and the **Pods** in the **Cluster**.
+- The **Control Plane** exposes the APIs that allow you to define, deploy and manage the entire lifecycle of **Containers** in your **Cluster**.
 
 ## Why do we use Kubernetes?
 ### Scaling
