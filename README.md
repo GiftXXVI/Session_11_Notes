@@ -19,6 +19,7 @@ But what if I don't need these resources anymore, how do I scale..down?
 - A **Pod** is a set of running **Containers**.
 - The **Control Plane** manages the **Nodes** and the **Pods** in the **Cluster**.
 - The **Control Plane** exposes the APIs that allow you to define, deploy and manage the entire lifecycle of **Containers** in your **Cluster**.
+- An agent called a **kubelet** runs on each **Node** in the **Cluster**. It makes sure that **Containers** in a **Pod** are running and healthy.
 
 ## Why do we use Kubernetes?
 ### Scaling
